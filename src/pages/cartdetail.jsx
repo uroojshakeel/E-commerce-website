@@ -15,7 +15,7 @@ function CartDetail() {
   if (!product) return <h2>Loading product...</h2>;
 
   return (
-    <div className="p-6 max-w-xl mx-auto">
+    <div className="p-6 max-w-xl bg-black mx-auto">
       <Link to="/" className="text-blue-600 underline mb-6 inline-block">← Back to Home</Link>
       <div className='border-2 p-8 rounded border-gray-300'>
       <h1 className="text-3xl font-bold mb-4">{product.title}</h1>
